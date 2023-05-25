@@ -1,0 +1,6 @@
+CHEATSHEET GIT-GITHUB
+git init : inicializa repo
+git commit -m 'msj' : crea un commit con el mensaje que le indique
+git checkout -b rama : atajo para crear una rama y pasarse a ella de una
+git merge ramaz : combina mi rama actual con la rama ramaz
+git push origin remotename : pasa mi rama actual a el repo con el nombre remotename
