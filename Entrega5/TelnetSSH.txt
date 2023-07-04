@@ -1,0 +1,24 @@
+Telnet:
+
+Ventajas:
+1. Simplicidad: Telnet es una herramienta sencilla de usar y configurar. No requiere una gran cantidad de recursos para funcionar.
+2. Compatibilidad: Telnet es compatible con una amplia gama de sistemas operativos y dispositivos de red.
+3. Acceso remoto: Permite el acceso remoto a dispositivos y servidores a través de una conexión de red.
+4. Depuración y pruebas: Telnet se utiliza a menudo para realizar pruebas y depurar problemas en conexiones de red y servicios.
+
+Desventajas:
+1. Falta de seguridad: Telnet no cifra los datos transmitidos, lo que significa que las credenciales y otros datos confidenciales se envían en texto sin formato, lo que facilita su interceptación por parte de terceros.
+2. Vulnerabilidades: Debido a su falta de seguridad, Telnet es vulnerable a ataques de tipo "hombre en el medio" (man-in-the-middle) y puede ser explotado por personas malintencionadas para obtener acceso no autorizado a sistemas remotos.
+3. Limitaciones: Telnet carece de muchas características avanzadas que se encuentran en protocolos más seguros como SSH, como el reenvío de puertos y la ejecución remota de comandos.
+
+SSH:
+
+Ventajas:
+1. Seguridad: SSH utiliza cifrado para proteger la confidencialidad e integridad de los datos transmitidos, lo que lo hace mucho más seguro que Telnet.
+2. Autenticación: SSH admite múltiples métodos de autenticación, como contraseñas, claves públicas y autenticación de dos factores, lo que brinda opciones para mejorar la seguridad de las conexiones.
+3. Reenvío de puertos: SSH permite el reenvío seguro de puertos, lo que facilita la conexión a servicios en redes remotas de manera segura.
+4. Ejecución de comandos remotos: SSH permite ejecutar comandos en un servidor remoto de forma segura, lo que facilita la administración remota de sistemas.
+
+Desventajas:
+1. Mayor complejidad: SSH puede ser más complejo de configurar y utilizar en comparación con Telnet, especialmente si se utilizan características avanzadas como el reenvío de puertos y la autenticación basada en claves.
+2. Mayor carga computacional: Debido a la necesidad de cifrar y descifrar datos, SSH puede requerir más recursos computacionales que Telnet, especialmente en sistemas con baja capacidad de procesamiento.
